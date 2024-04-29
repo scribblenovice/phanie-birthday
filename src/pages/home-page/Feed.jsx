@@ -18,12 +18,13 @@ const Feed = () => {
         } = el;
         const [active, setActive] = useState(false);
         const [likes, setLikes] = useState(numOfLikes);
-        
+
         return (
           <div className="w-full px-2 mb-10" key={id}>
             <div className="flex w-full justify-between items-center">
               <div className="flex">
                 <img
+                  loading="lazy"
                   src={profilePic}
                   alt=""
                   className="w-12 h-12 rounded-full"
@@ -41,6 +42,7 @@ const Feed = () => {
             <div className="py-4">
               <p className="pb-4 text-sm">{postDescription}</p>
               <img
+                loading="lazy"
                 src={postPicture}
                 alt=""
                 className="h-[350px] w-full rounded-lg"

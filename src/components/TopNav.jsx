@@ -32,6 +32,7 @@ const TopNav = () => {
           </button>
           <div className="flex items-center">
             <img
+            loading="lazy"
               src={src}
               alt=""
               className="w-10 h-10 rounded-full border-[2px] border-green-400 mr-2"

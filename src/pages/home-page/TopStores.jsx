@@ -10,6 +10,7 @@ const TopStores = () => {
           <div key={el.id} className="mb-8 bg-white rounded-2xl">
             <div className="">
               <img
+              loading="lazy"
                 src={el.imgSrc}
                 alt=""
                 className="rounded-t-2xl w-full h-40"

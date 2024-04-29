@@ -6,9 +6,10 @@ const SideFeed = () => {
         {sideFeed.map((el) => {
           return (
             <div className="w-full mb-6 px-1 relative cursor-pointer">
-              <img src={el.feedImg} alt="" className="rounded-xl h-80" />
+              <img src={el.feedImg} loading="lazy" alt="" className="rounded-xl h-80" />
               <div className="absolute rounded-full top-5 left-5 border-white border-2">
                 <img
+                loading="lazy"
                   src={el.profilePic}
                   alt=""
                   className="w-14 h-14 rounded-full"

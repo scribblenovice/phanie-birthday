@@ -14,6 +14,7 @@ const HomeStories = () => {
               >
                 <div className="flex items-center">
                   <img
+                  loading="lazy"
                     src={el.source}
                     alt=""
                     className="w-20 h-20 rounded-full border-green-400 border-4"
