@@ -1,15 +1,23 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-import TopNav from "./components/TopNav";
-import Dashboard from "./dashboard/Dashboard";
-
+import WaterwheelCarousel from "./pages/Carousel";
+import src from "/birthday-bday.gif";
 function App() {
   return (
-    <div className="w-[97%] mx-auto flex flex-col gap-y-3 py-3 h-screen overflow-hidden">
-        <TopNav />
-        <Dashboard/>
+    <div className="md:hidden h-screen flex flex-col gap-2">
+      <h1 className="text-center text-white font-bold flex gap-4 justify-center mt-5">
+        <i class="ri-heart-fill"></i>22/10/2024<i class="ri-heart-fill"></i>
+      </h1>
+      <WaterwheelCarousel />
+      <div className="flex gap-5 items-center">
+        <img className="w-20 h-20 rounded-full" src={src} alt="" />
+        <div className="flex flex-col gap-2">
+          <h1 className="text-white text-2xl font-bold glow">
+            Happy Birthday Phanie!
+          </h1>
+          <p className="text-white text-center glow font-bold tracking-widest">Cheers to another year of being amazing🥂</p>
+        </div>
+      </div>
     </div>
   );
 }

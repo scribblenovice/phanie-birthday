@@ -17,7 +17,7 @@ const HomeStories = () => {
                   loading="lazy"
                     src={el.source}
                     alt=""
-                    className="w-20 h-20 rounded-full border-green-400 border-4"
+                    className="w-12 h-12 rounded-full border-green-400 border-4"
                   />
                   <i class="ri-arrow-down-s-fill"></i>
                 </div>
@@ -27,13 +27,6 @@ const HomeStories = () => {
             </>
           );
         })}
-        {/* <div className="w-[14%] cursor-pointer">
-            <div>
-                <img src={src} alt="" className="w-24 h-24 rounded-full border-green-400 border-4" />
-                <i className="icon"></i>
-            </div>
-            <p>Anika Albrite</p>
-        </div> */}
       </div>
     </div>
   );
