@@ -4,7 +4,7 @@ import WaterwheelCarousel from "./pages/Carousel";
 import src from "/birthday-bday.gif";
 function App() {
   return (
-    <div className="md:hidden max-w-screen max-h-screen flex flex-col">
+    <div className="md:hidden max-w-screen max-h-screen flex flex-col py-14">
       <h1 className="text-center text-white font-bold flex gap-4 justify-center mt-5">
         <i class="ri-heart-fill"></i>22/10/2024<i class="ri-heart-fill"></i>
       </h1>
