@@ -35,7 +35,7 @@ const CarouselItem = ({ image, position }) => {
       <img
         src={image}
         alt="carousel-item"
-        className="border-white border-8 w-full h-[350px] rounded-lg"
+        className="border-white border-8 w-full h-[320px] rounded-lg"
       />
     </div>
   );
